@@ -3,7 +3,7 @@ package lab1;
 /**
  * Solve the lab1.FizzBuzz challenge.
  */
-class FizzBuzz { //hello from csc207
+class FizzBuzz { //hello from csc207!!
 
     public static void main(String[] args) {
 
