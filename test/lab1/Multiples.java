@@ -2,9 +2,7 @@ package lab1;
 //test
 public class Multiples {
     public static void main(String[] args) {
-        int count = multiples(1000, 3, 5);
-        System.out.println(count);
-
+        System.out.println(multiples(1000, 3, 5));
     }
 
     static int multiples(int n, int a, int b) {
@@ -13,7 +11,7 @@ public class Multiples {
             boolean divisibleBya = i % a == 0;
             boolean divisibleByb = i % b == 0;
 
-            if (divisibleBya && divisibleByb) {
+            if (divisibleBya || divisibleByb) {
                 count++;
             }
         }
